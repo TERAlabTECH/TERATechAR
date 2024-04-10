@@ -44,52 +44,80 @@ public class GameControllerMapaEcosistemas : MonoBehaviour
     [SerializeField] private GameObject Zacatecas;
 
     private Estado[] estado;
+    //private Estado[] Semiarido;
+    //private Estado[] Desierto;
+    //private Estado[] Arrecife;
+    //private Estado[] SelvaTropical;
+    //private Estado[] Bosque;
+    //private Estado[] BosqueTropical;
+    //private Estado[] Matorral;
+    //private Estado[] Selva;
+    //private Estado[] SelvaLLuviosa;
+
+    private Dictionary<string, List<Estado>> ecosistemasEstados = new Dictionary<string, List<Estado>>();
 
     // Start is called before the first frame update
     void Start()
     {
         estado = new Estado[] {
-            new Estado(Aguascalientes),
-            new Estado(BajaCalifornia),
-            new Estado(BajaCaliforniaSur),
-            new Estado(Campeche),
-            new Estado(Chiapas),
-            new Estado(Chihuahua),
-            new Estado(CiudadDeMexico),
-            new Estado(Coahuila),
-            new Estado(Colima),
-            new Estado(Durango),
-            new Estado(EstadoDeMexico),
-            new Estado(Guanajuato),
-            new Estado(Guerrero),
-            new Estado(Hidalgo),
-            new Estado(Jalisco),
-            new Estado(Michoacan),
-            new Estado(Morelos),
-            new Estado(Nayarit),
-            new Estado(NuevoLeon),
-            new Estado(Oaxaca),
-            new Estado(Puebla),
-            new Estado(Queretaro),
-            new Estado(QuintanaRoo),
-            new Estado(SanLuisPotosi),
-            new Estado(Sinaloa),
-            new Estado(Sonora),
-            new Estado(Tabasco),
-            new Estado(Tamaulipas),
-            new Estado(Tlaxcala),
-            new Estado(Veracruz),
-            new Estado(Yucatan),
-            new Estado(Zacatecas),
+            new Estado(Aguascalientes),         //0
+            new Estado(BajaCalifornia),         //1
+            new Estado(BajaCaliforniaSur),      //2
+            new Estado(Campeche),               //3
+            new Estado(Chiapas),                //4
+            new Estado(Chihuahua),              //5
+            new Estado(CiudadDeMexico),         //6
+            new Estado(Coahuila),               //7
+            new Estado(Colima),                 //8
+            new Estado(Durango),                //9
+            new Estado(EstadoDeMexico),         //10
+            new Estado(Guanajuato),             //11
+            new Estado(Guerrero),               //12
+            new Estado(Hidalgo),                //13
+            new Estado(Jalisco),                //14
+            new Estado(Michoacan),              //15
+            new Estado(Morelos),                //16
+            new Estado(Nayarit),                //17
+            new Estado(NuevoLeon),              //18
+            new Estado(Oaxaca),                 //19
+            new Estado(Puebla),                 //20
+            new Estado(Queretaro),              //21
+            new Estado(QuintanaRoo),            //22
+            new Estado(SanLuisPotosi),          //23
+            new Estado(Sinaloa),                //24
+            new Estado(Sonora),                 //25
+            new Estado(Tabasco),                //26
+            new Estado(Tamaulipas),             //27
+            new Estado(Tlaxcala),               //28
+            new Estado(Veracruz),               //29
+            new Estado(Yucatan),                //30
+            new Estado(Zacatecas),              //31
         };
+
+        ecosistemasEstados["Semiarido"] = new List<Estado> { estado[0] }; 
+        ecosistemasEstados["Desierto"] = new List<Estado> { estado[1], estado[2], estado[7], estado[5], estado[9], estado[18], estado[23], estado[24], estado[25], estado[27], estado[31] };
+        ecosistemasEstados["Arrecife"] = new List<Estado> { estado[2] }; 
+        ecosistemasEstados["SelvaTropical"] = new List<Estado> { estado[3], estado[19], estado[22], estado[26], estado[30] };
+        ecosistemasEstados["Bosque"] = new List<Estado> { estado[7], estado[9], estado[10], estado[12], estado[14], estado[15], estado[16], estado[18], estado[20], estado[21], estado[24], estado[27], estado[28], estado[31] };
+        ecosistemasEstados["BosqueTropical"] = new List<Estado> { estado[8] };
+        ecosistemasEstados["Matorral"] = new List<Estado> { estado[11], estado[13] };
+        ecosistemasEstados["Selva"] = new List<Estado> { estado[3], estado[17] };
+        ecosistemasEstados["SelvaLLuviosa"] = new List<Estado> { estado[4] };
+
 
         Vector3 pos = estado[1].GetPosition();
         Debug.Log(pos);
-    }
+}
 
+        
+
+    
     // Update is called once per frame
     void Update()
     {
-        
+
     }
+
 }
+        
+
