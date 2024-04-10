@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class Estado : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    public GameObject gameObject;
+
+    public Estado(GameObject newGameObject) {
+        gameObject = newGameObject;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public Vector4 GetPosition() {
+        return gameObject.transform.position;
     }
 }
