@@ -22,7 +22,7 @@ public class GameController : MonoBehaviour
     private int firstGuessIndex, secondGuessIndex;
 
     private string firstGuessName, secondGuessName;
-    private char firstGuessChar, secondGuessChar;
+    private char firstGuessChar, secondGuessChar; 
     
     void Start()
     {
