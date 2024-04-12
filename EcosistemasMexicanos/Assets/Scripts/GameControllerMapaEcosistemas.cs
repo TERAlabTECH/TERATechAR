@@ -106,7 +106,10 @@ public class GameControllerMapaEcosistemas : MonoBehaviour
         {
             ActivarEcosistema("Matorral");
         }
-        // Continue for the rest of the QWERTY keys
+        if (Input.GetKeyDown(KeyCode.P)) // Assuming U is for Matorral
+        {
+            ResetAllEstados();
+        }
     }
 
 

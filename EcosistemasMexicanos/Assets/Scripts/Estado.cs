@@ -11,7 +11,7 @@ public class Estado : MonoBehaviour
     // Awake is called when the script instance is being loaded.
     void Awake()
     {
-        initialPosition = transform.position; // Store the initial position at the time of creation.
+        initialPosition = transform.localPosition; // Store the initial position at the time of creation.
         initialGroundPlanePosition = transform.parent.position; // Store the initial ground plane position.
         initialOffset = initialPosition - transform.parent.position; // Calculate the initial offset from the ground plane.
     }
@@ -25,11 +25,11 @@ public class Estado : MonoBehaviour
     public void Elevar()
     {
         // Calculate the new Z position based on the parent's current position plus a fixed elevation amount.
-        float newZ = transform.parent.position.z + initialOffset.z + 0.055f;
+        float newY = transform.localPosition.y + 0.04f;
 
         Debug.Log(gameObject.name + " pos: " + GetPosition());
         // Set the new position, maintaining the current X and Y positions relative to the parent.
-        gameObject.transform.position = new Vector3(transform.parent.position.x, transform.parent.position.y, newZ);
+        gameObject.transform.position = new Vector3(transform.localPosition.x, newY, transform.localPosition.z);
 
        
         Debug.Log(gameObject.name + " elevated to " + gameObject.transform.position);
