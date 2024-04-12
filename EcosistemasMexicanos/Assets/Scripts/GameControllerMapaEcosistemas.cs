@@ -48,6 +48,7 @@ public class GameControllerMapaEcosistemas : MonoBehaviour
     private Estado[] estado;
 
     private Dictionary<string, List<Estado>> ecosistemasEstados = new Dictionary<string, List<Estado>>();
+    private Dictionary<string, Color> ecosistemaColores;
 
     // Start is called before the first frame update
     void Awake()
@@ -57,6 +58,20 @@ public class GameControllerMapaEcosistemas : MonoBehaviour
             CiudadDeMexico,Coahuila,Colima,Durango,EstadoDeMexico,Guanajuato,Guerrero,Hidalgo,
             Jalisco,Michoacan,Morelos,Nayarit,NuevoLeon,Oaxaca,Puebla,Queretaro,QuintanaRoo,SanLuisPotosi,
             Sinaloa,Sonora,Tabasco,Tamaulipas,Tlaxcala,Veracruz,Yucatan,Zacatecas
+        };
+
+        // Poner colores más adoc
+        ecosistemaColores = new Dictionary<string, Color>
+        {
+            { "Semiarido", Color.yellow },
+            { "Desierto", Color.red },
+            { "Arrecife", Color.cyan },
+            { "SelvaTropical", Color.green },
+            { "Bosque", Color.black },
+            { "BosqueTropical", Color.magenta },
+            { "Matorral", Color.gray },
+            { "Selva", Color.blue },
+            { "SelvaLLuviosa", Color.gray }
         };
 
     }
@@ -119,10 +134,11 @@ public class GameControllerMapaEcosistemas : MonoBehaviour
         ResetAllEstados();
         if (ecosistemasEstados.ContainsKey(nombreEcosistema))
         {
+            Color colorEcosistema = ecosistemaColores[nombreEcosistema]; // Get the color for the ecosystem
             foreach (var est in ecosistemasEstados[nombreEcosistema])
             {
                 est.Elevar();
-                est.ChangeColor(Color.green); // Change color to green when elevated
+                est.ChangeColor(colorEcosistema); // Change to the color associated with the ecosystem
             }
         }
     }
