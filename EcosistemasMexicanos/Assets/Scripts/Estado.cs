@@ -24,7 +24,6 @@ public class Estado : MonoBehaviour
         // Set the new local position, maintaining the current X and Z positions.
         transform.localPosition = new Vector3(transform.localPosition.x, newY, transform.localPosition.z);
 
-        Debug.Log(gameObject.name + " elevated to " + transform.localPosition);
     }
 
     // Método para Bajar este estado (después de que fue elevado).
@@ -33,6 +32,5 @@ public class Estado : MonoBehaviour
         // Reset to the initial local position.
         transform.localPosition = initialLocalPosition;
 
-        Debug.Log(gameObject.name + " lowered to " + transform.localPosition);
     }
 }
