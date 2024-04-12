@@ -46,15 +46,6 @@ public class GameControllerMapaEcosistemas : MonoBehaviour
     [SerializeField] private Estado Zacatecas;
 
     private Estado[] estado;
-    //private Estado[] Semiarido;
-    //private Estado[] Desierto;
-    //private Estado[] Arrecife;
-    //private Estado[] SelvaTropical;
-    //private Estado[] Bosque;
-    //private Estado[] BosqueTropical;
-    //private Estado[] Matorral;
-    //private Estado[] Selva;
-    //private Estado[] SelvaLLuviosa;
 
     private Dictionary<string, List<Estado>> ecosistemasEstados = new Dictionary<string, List<Estado>>();
 
@@ -139,6 +130,7 @@ public class GameControllerMapaEcosistemas : MonoBehaviour
             est.Bajar(); 
         }
     }
+
 
 }
         
