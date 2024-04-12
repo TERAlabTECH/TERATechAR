@@ -1,35 +1,42 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Estado : MonoBehaviour
 {
-    private Vector3 initialPosition;
+    private Vector3 initialLocalPosition;
+    private Renderer objectRenderer; // Reference to the Renderer component
 
+    public Material elevatedMaterial; // Material to apply when elevated
+    private Material originalMaterial; // Original material to revert to
 
-    // Awake is called when the script instance is being loaded.
     void Awake()
     {
-        initialPosition = transform.position; // Store the initial position at the time of creation
+        initialLocalPosition = transform.localPosition;
+        objectRenderer = GetComponent<Renderer>(); // Get the Renderer component
+        originalMaterial = objectRenderer.material; // Store the original material
     }
 
-    public Vector4 GetPosition() {
-        return gameObject.transform.position;
+    public Vector3 GetPosition()
+    {
+        return transform.localPosition;
     }
 
-    // Método para elevar este estado
     public void Elevar()
     {
-        Vector3 newPosition = initialPosition + new Vector3(0, 0, 0.055f); // Try elevating by 1 unit on the Y axis
-        gameObject.transform.position = newPosition;
-        Debug.Log(gameObject.name + " elevated to " + newPosition);
+        // Change the material to the elevated material
+        if (elevatedMaterial != null)
+            objectRenderer.material = elevatedMaterial;
+
+        // Example elevation logic (adjust as needed)
+        transform.localPosition = new Vector3(initialLocalPosition.x, initialLocalPosition.y, initialLocalPosition.z + 0.055f);
+        Debug.Log($"{gameObject.name} elevated to {transform.localPosition}");
     }
 
-
-    // Método para Bajar este estado (después de que fue elevado
     public void Bajar()
     {
-        gameObject.transform.position = initialPosition; // Reset to the initial position
-    }
+        // Revert to the original material
+        objectRenderer.material = originalMaterial;
 
+        // Reset to the initial local position
+        transform.localPosition = initialLocalPosition;
+    }
 }

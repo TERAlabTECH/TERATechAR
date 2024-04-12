@@ -8,6 +8,8 @@ using Vector3 = UnityEngine.Vector3;
 
 public class GameControllerMapaEcosistemas : MonoBehaviour
 {
+    [Header("Suelo")]//Agregamos un suelo a la experiencia para que no se pierdan los modelos con el suelo real
+    [SerializeField] private GameObject suelo; 
 
     [Header("Estados")]
     [SerializeField] private Estado Aguascalientes;
@@ -87,12 +89,10 @@ public class GameControllerMapaEcosistemas : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Q)) // Assuming Q is for Semiarido
         {
             ActivarEcosistema("Semiarido");
-            Debug.Log("Q");
         }
         if (Input.GetKeyDown(KeyCode.W)) // Assuming W is for Desierto
         {
             ActivarEcosistema("Desierto");
-            Debug.Log("W");
 
         }
         if (Input.GetKeyDown(KeyCode.E)) // Assuming E is for Arrecife
