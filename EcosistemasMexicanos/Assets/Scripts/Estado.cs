@@ -3,11 +3,13 @@ using UnityEngine;
 public class Estado : MonoBehaviour
 {
     private Vector3 initialLocalPosition;
+    private Renderer renderer;
 
     // Awake is called when the script instance is being loaded.
     void Awake()
     {
         initialLocalPosition = transform.localPosition; // Store the initial local position.
+        renderer = GetComponent<Renderer>(); // Get the Renderer component at start.
     }
 
     public Vector3 GetPosition()
@@ -32,5 +34,13 @@ public class Estado : MonoBehaviour
         // Reset to the initial local position.
         transform.localPosition = initialLocalPosition;
 
+    }
+
+    public void ChangeColor(Color newColor)
+    {
+        if (renderer != null)
+        {
+            renderer.material.color = newColor; // Set the material color to the new color.
+        }
     }
 }

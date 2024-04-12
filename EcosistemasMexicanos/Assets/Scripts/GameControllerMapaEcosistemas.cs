@@ -116,12 +116,13 @@ public class GameControllerMapaEcosistemas : MonoBehaviour
 
     private void ActivarEcosistema(string nombreEcosistema)
     {
-        ResetAllEstados(); 
+        ResetAllEstados();
         if (ecosistemasEstados.ContainsKey(nombreEcosistema))
         {
             foreach (var est in ecosistemasEstados[nombreEcosistema])
             {
-                est.Elevar(); 
+                est.Elevar();
+                est.ChangeColor(Color.green); // Change color to green when elevated
             }
         }
     }
@@ -130,7 +131,8 @@ public class GameControllerMapaEcosistemas : MonoBehaviour
     {
         foreach (var est in estado)
         {
-            est.Bajar(); 
+            est.Bajar();
+            est.ChangeColor(Color.white); // Change color back to white when not elevated
         }
     }
 
