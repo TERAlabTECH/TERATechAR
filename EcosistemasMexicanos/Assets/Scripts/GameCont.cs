@@ -5,9 +5,16 @@ using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
-    public List<Button> btns = new List<Button>();
-    private Sprite bgImage;
 
+    [SerializeField] private Sprite bgImage;
+
+    public Sprite[] puzzles;
+
+    public List<Sprite> gamePuzzles = new List<Sprite>();
+
+    public List<Button> btns = new List<Button>(); 
+
+    
     void Start()
     {
         GetButtons();
@@ -37,4 +44,5 @@ public class GameController : MonoBehaviour
         string name = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.name;
 
     }
+
 }
