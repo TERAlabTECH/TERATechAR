@@ -10,38 +10,38 @@ public class GameControllerMapaEcosistemas : MonoBehaviour
 {
 
     [Header("Estados")]
-    [SerializeField] private GameObject Aguascalientes;
-    [SerializeField] private GameObject BajaCalifornia;
-    [SerializeField] private GameObject BajaCaliforniaSur;
-    [SerializeField] private GameObject Campeche;
-    [SerializeField] private GameObject Chiapas;
-    [SerializeField] private GameObject Chihuahua;
-    [SerializeField] private GameObject CiudadDeMexico;
-    [SerializeField] private GameObject Coahuila;
-    [SerializeField] private GameObject Colima;
-    [SerializeField] private GameObject Durango;
-    [SerializeField] private GameObject EstadoDeMexico;
-    [SerializeField] private GameObject Guanajuato;
-    [SerializeField] private GameObject Guerrero;
-    [SerializeField] private GameObject Hidalgo;
-    [SerializeField] private GameObject Jalisco;
-    [SerializeField] private GameObject Michoacan;
-    [SerializeField] private GameObject Morelos;
-    [SerializeField] private GameObject Nayarit;
-    [SerializeField] private GameObject NuevoLeon;
-    [SerializeField] private GameObject Oaxaca;
-    [SerializeField] private GameObject Puebla;
-    [SerializeField] private GameObject Queretaro;
-    [SerializeField] private GameObject QuintanaRoo;
-    [SerializeField] private GameObject SanLuisPotosi;
-    [SerializeField] private GameObject Sinaloa;
-    [SerializeField] private GameObject Sonora;
-    [SerializeField] private GameObject Tabasco;
-    [SerializeField] private GameObject Tamaulipas;
-    [SerializeField] private GameObject Tlaxcala;
-    [SerializeField] private GameObject Veracruz;
-    [SerializeField] private GameObject Yucatan;
-    [SerializeField] private GameObject Zacatecas;
+    [SerializeField] private Estado Aguascalientes;
+    [SerializeField] private Estado BajaCalifornia;
+    [SerializeField] private Estado BajaCaliforniaSur;
+    [SerializeField] private Estado Campeche;
+    [SerializeField] private Estado Chiapas;
+    [SerializeField] private Estado Chihuahua;
+    [SerializeField] private Estado CiudadDeMexico;
+    [SerializeField] private Estado Coahuila;
+    [SerializeField] private Estado Colima;
+    [SerializeField] private Estado Durango;
+    [SerializeField] private Estado EstadoDeMexico;
+    [SerializeField] private Estado Guanajuato;
+    [SerializeField] private Estado Guerrero;
+    [SerializeField] private Estado Hidalgo;
+    [SerializeField] private Estado Jalisco;
+    [SerializeField] private Estado Michoacan;
+    [SerializeField] private Estado Morelos;
+    [SerializeField] private Estado Nayarit;
+    [SerializeField] private Estado NuevoLeon;
+    [SerializeField] private Estado Oaxaca;
+    [SerializeField] private Estado Puebla;
+    [SerializeField] private Estado Queretaro;
+    [SerializeField] private Estado QuintanaRoo;
+    [SerializeField] private Estado SanLuisPotosi;
+    [SerializeField] private Estado Sinaloa;
+    [SerializeField] private Estado Sonora;
+    [SerializeField] private Estado Tabasco;
+    [SerializeField] private Estado Tamaulipas;
+    [SerializeField] private Estado Tlaxcala;
+    [SerializeField] private Estado Veracruz;
+    [SerializeField] private Estado Yucatan;
+    [SerializeField] private Estado Zacatecas;
 
     private Estado[] estado;
     //private Estado[] Semiarido;
@@ -57,65 +57,87 @@ public class GameControllerMapaEcosistemas : MonoBehaviour
     private Dictionary<string, List<Estado>> ecosistemasEstados = new Dictionary<string, List<Estado>>();
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         estado = new Estado[] {
-            new Estado(Aguascalientes),         //0
-            new Estado(BajaCalifornia),         //1
-            new Estado(BajaCaliforniaSur),      //2
-            new Estado(Campeche),               //3
-            new Estado(Chiapas),                //4
-            new Estado(Chihuahua),              //5
-            new Estado(CiudadDeMexico),         //6
-            new Estado(Coahuila),               //7
-            new Estado(Colima),                 //8
-            new Estado(Durango),                //9
-            new Estado(EstadoDeMexico),         //10
-            new Estado(Guanajuato),             //11
-            new Estado(Guerrero),               //12
-            new Estado(Hidalgo),                //13
-            new Estado(Jalisco),                //14
-            new Estado(Michoacan),              //15
-            new Estado(Morelos),                //16
-            new Estado(Nayarit),                //17
-            new Estado(NuevoLeon),              //18
-            new Estado(Oaxaca),                 //19
-            new Estado(Puebla),                 //20
-            new Estado(Queretaro),              //21
-            new Estado(QuintanaRoo),            //22
-            new Estado(SanLuisPotosi),          //23
-            new Estado(Sinaloa),                //24
-            new Estado(Sonora),                 //25
-            new Estado(Tabasco),                //26
-            new Estado(Tamaulipas),             //27
-            new Estado(Tlaxcala),               //28
-            new Estado(Veracruz),               //29
-            new Estado(Yucatan),                //30
-            new Estado(Zacatecas),              //31
+             Aguascalientes,BajaCalifornia, BajaCaliforniaSur, Campeche,Chiapas,Chihuahua,
+            CiudadDeMexico,Coahuila,Colima,Durango,EstadoDeMexico,Guanajuato,Guerrero,Hidalgo,
+            Jalisco,Michoacan,Morelos,Nayarit,NuevoLeon,Oaxaca,Puebla,Queretaro,QuintanaRoo,SanLuisPotosi,
+            Sinaloa,Sonora,Tabasco,Tamaulipas,Tlaxcala,Veracruz,Yucatan,Zacatecas
         };
 
-        ecosistemasEstados["Semiarido"] = new List<Estado> { estado[0] }; 
-        ecosistemasEstados["Desierto"] = new List<Estado> { estado[1], estado[2], estado[7], estado[5], estado[9], estado[18], estado[23], estado[24], estado[25], estado[27], estado[31] };
-        ecosistemasEstados["Arrecife"] = new List<Estado> { estado[2] }; 
-        ecosistemasEstados["SelvaTropical"] = new List<Estado> { estado[3], estado[19], estado[22], estado[26], estado[30] };
-        ecosistemasEstados["Bosque"] = new List<Estado> { estado[7], estado[9], estado[10], estado[12], estado[14], estado[15], estado[16], estado[18], estado[20], estado[21], estado[24], estado[27], estado[28], estado[31] };
-        ecosistemasEstados["BosqueTropical"] = new List<Estado> { estado[8] };
-        ecosistemasEstados["Matorral"] = new List<Estado> { estado[11], estado[13] };
-        ecosistemasEstados["Selva"] = new List<Estado> { estado[3], estado[17] };
-        ecosistemasEstados["SelvaLLuviosa"] = new List<Estado> { estado[4] };
+    }
 
+    private void Start()
+    {
+        ecosistemasEstados["Semiarido"] = new List<Estado> { Aguascalientes };
+        ecosistemasEstados["Desierto"] = new List<Estado> { BajaCalifornia, BajaCaliforniaSur, Coahuila, Chihuahua, Durango, NuevoLeon, SanLuisPotosi, Sinaloa, Sonora, Tamaulipas, Zacatecas };
+        ecosistemasEstados["Arrecife"] = new List<Estado> { BajaCaliforniaSur };
+        ecosistemasEstados["SelvaTropical"] = new List<Estado> { Campeche, Oaxaca, QuintanaRoo, Tabasco, Veracruz, Yucatan };
+        ecosistemasEstados["Bosque"] = new List<Estado> { CiudadDeMexico, Coahuila, Durango, EstadoDeMexico, Guerrero, Jalisco, Michoacan, Morelos, NuevoLeon, Puebla, Queretaro, Sinaloa, Tamaulipas, Tlaxcala, Zacatecas };
+        ecosistemasEstados["BosqueTropical"] = new List<Estado> { Colima };
+        ecosistemasEstados["Matorral"] = new List<Estado> { Guanajuato, Hidalgo };
+        ecosistemasEstados["Selva"] = new List<Estado> { Campeche, Nayarit };
+        ecosistemasEstados["SelvaLLuviosa"] = new List<Estado> { Chiapas };
+    }
 
-        Vector3 pos = estado[1].GetPosition();
-        Debug.Log(pos);
-}
-
-        
-
-    
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Q)) // Assuming Q is for Semiarido
+        {
+            ActivarEcosistema("Semiarido");
+            Debug.Log("Q");
+        }
+        if (Input.GetKeyDown(KeyCode.W)) // Assuming W is for Desierto
+        {
+            ActivarEcosistema("Desierto");
+            Debug.Log("W");
 
+        }
+        if (Input.GetKeyDown(KeyCode.E)) // Assuming E is for Arrecife
+        {
+            ActivarEcosistema("Arrecife");
+        }
+        if (Input.GetKeyDown(KeyCode.R)) // Assuming R is for Selva Tropical
+        {
+            ActivarEcosistema("SelvaTropical");
+        }
+        if (Input.GetKeyDown(KeyCode.T)) // Assuming T is for Bosque
+        {
+            ActivarEcosistema("Bosque");
+        }
+        if (Input.GetKeyDown(KeyCode.Y)) // Assuming Y is for Bosque Tropical
+        {
+            ActivarEcosistema("BosqueTropical");
+        }
+        if (Input.GetKeyDown(KeyCode.U)) // Assuming U is for Matorral
+        {
+            ActivarEcosistema("Matorral");
+        }
+        // Continue for the rest of the QWERTY keys
+    }
+
+
+
+    private void ActivarEcosistema(string nombreEcosistema)
+    {
+        ResetAllEstados(); 
+        if (ecosistemasEstados.ContainsKey(nombreEcosistema))
+        {
+            foreach (var est in ecosistemasEstados[nombreEcosistema])
+            {
+                est.Elevar(); 
+            }
+        }
+    }
+
+    private void ResetAllEstados()
+    {
+        foreach (var est in estado)
+        {
+            est.Bajar(); 
+        }
     }
 
 }
