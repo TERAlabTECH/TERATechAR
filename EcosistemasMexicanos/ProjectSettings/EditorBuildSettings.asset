@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/SamplesResources/Scenes/0-Main.unity
     guid: a09cb257d566c489595b16ab37547666
   - enabled: 1
-    path: Assets/Scenes/Experiencia/2 - Ecosistemas.unity
-    guid: d3218addcfbb546e98cf7eb2269fdfdf
+    path: Assets/Scenes/1 - IntroExperiencia.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/MapaEcosistemas.unity
+    guid: 8f247d0ffcc2b43a183baf3cc099b46f
+  - enabled: 1
+    path: Assets/Scenes/JuegoMemoria.unity
+    guid: 29d8bd0cd7508474aa4bd75f68c215f4
   m_configObjects: {}
