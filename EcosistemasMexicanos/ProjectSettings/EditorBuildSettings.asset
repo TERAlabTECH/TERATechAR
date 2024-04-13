@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/SamplesResources/Scenes/0-Main.unity
     guid: a09cb257d566c489595b16ab37547666
   - enabled: 1
-    path: Assets/Scenes/Ecosistemas.unity
+    path: Assets/Scenes/Experiencia/2 - Ecosistemas.unity
     guid: d3218addcfbb546e98cf7eb2269fdfdf
   m_configObjects: {}
