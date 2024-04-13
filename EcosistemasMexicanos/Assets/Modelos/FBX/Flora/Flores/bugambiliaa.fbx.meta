@@ -3,7 +3,22 @@ guid: 320aa964fcda14aa1803b0cb78c73706
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: JA11_Bark01_dif_su
+    second: {fileID: 2800000, guid: c97aa598a71f9f8439596f9def89715c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: JA11_Bark01_nml_su
+    second: {fileID: 2800000, guid: ad7e1428cbfdead4aae7e96b27a28c5e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: JA11_Petal03_nml_su
+    second: {fileID: 2800000, guid: 3e0be28d7091d6c46a9593d1b270ce49, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -44,7 +59,7 @@ ModelImporter:
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
-    importLights: 1
+    importLights: 0
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0

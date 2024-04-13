@@ -3,7 +3,12 @@ guid: 4b374299a98e24581b584253348eba5c
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: chestnut_final_scaled
+    second: {fileID: 2800000, guid: 9b1b8bc91b78f444aaf618536486d8fb, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

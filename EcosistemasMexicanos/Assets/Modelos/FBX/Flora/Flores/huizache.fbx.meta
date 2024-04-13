@@ -3,7 +3,22 @@ guid: d8b1bff7849064ea78f53994272eaa2f
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Maple1_MZRT_a_BaseColor
+    second: {fileID: 2800000, guid: c422c9058225bdb4ab896936a227ab6e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Maple1_MZRT_b_BaseColor
+    second: {fileID: 2800000, guid: 57aca5d946d7d754ab17525d353a8305, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Maple1_MZRT_b_Opacity
+    second: {fileID: 2800000, guid: bbc9c22dc3e7957488bea40214167038, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -44,7 +59,7 @@ ModelImporter:
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
-    importLights: 1
+    importLights: 0
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0

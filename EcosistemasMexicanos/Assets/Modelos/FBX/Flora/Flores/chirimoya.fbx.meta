@@ -3,7 +3,17 @@ guid: 7a561c6c8d452473dace67f6ad8b65dd
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tex_u1_v1_diffuse
+    second: {fileID: 2800000, guid: 636d030548b307f418278d649558e05f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tex_u1_v1_normal
+    second: {fileID: 2800000, guid: f0b6f9d8df766a8478c24f4d301cbc64, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -44,7 +54,7 @@ ModelImporter:
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
-    importLights: 1
+    importLights: 0
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
