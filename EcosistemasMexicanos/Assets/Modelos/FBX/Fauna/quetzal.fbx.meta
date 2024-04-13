@@ -5,10 +5,15 @@ ModelImporter:
   internalIDToNameTable: []
   externalObjects:
   - first:
-      type: UnityEngine:Material
+      type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: 12245_bird
-    second: {fileID: 2100000, guid: e63b3917baeb0574c8bcdb22cb6cdc44, type: 2}
+      name: 12245_Bird_diffuse
+    second: {fileID: 2800000, guid: 62d02c8c7d1874f64b8c9824355a34cc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Map__7_Normal Bump
+    second: {fileID: 2800000, guid: eae372b360eaf4499b52db47ebb9c937, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -48,7 +53,7 @@ ModelImporter:
     importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
+    importCameras: 0
     importLights: 0
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2

@@ -5,21 +5,6 @@ ModelImporter:
   internalIDToNameTable: []
   externalObjects:
   - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Eyes
-    second: {fileID: 2100000, guid: 2b0e4edcf87674e4cbe92aa0d74f6d1c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: SealTexture.001
-    second: {fileID: 2100000, guid: 5fff0db86194fa447bbd17203b5c8214, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Whiskers
-    second: {fileID: 2100000, guid: e035ae8649a9ed3488e17019af78e0a7, type: 2}
-  - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Bagel_Seal_Diffuse
