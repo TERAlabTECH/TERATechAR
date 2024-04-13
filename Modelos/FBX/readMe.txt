@@ -1,6 +1,7 @@
 README: Modelos Utilizados en la Experiencia del Mapa de México
 
-Esta carpeta contiene todos los modelos utilizados durante la experiencia del mapa de México. Todos los modelos están en formato FBX, con las texturas adjuntas para facilitar su integración en Unity.
+Esta carpeta contiene todos los modelos utilizados durante la experiencia del mapa de México. 
+Todos los modelos están en formato FBX, con las texturas adjuntas para facilitar su integración en Unity.
 
 Contenido:
 
