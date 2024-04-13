@@ -13,7 +13,7 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: army_reduced_1
-    second: {fileID: 2800000, guid: e5eb6b26ab1f44938b84d2602c220fa1, type: 3}
+    second: {fileID: 2800000, guid: cfc6375280bcbd043abfc7a16f92d954, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

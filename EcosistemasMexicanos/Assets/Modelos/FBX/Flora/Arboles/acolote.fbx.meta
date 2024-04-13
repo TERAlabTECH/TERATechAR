@@ -3,7 +3,17 @@ guid: 709abbd56ec8e4cdd9605dcf408c56d0
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bark_Mat
+    second: {fileID: 2100000, guid: 1b089ef1a8d506846aa52ed35ce0a55e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pine_v2_Mat
+    second: {fileID: 2100000, guid: 247ef7599cfa2df48b4eeb1f744f70f4, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -44,7 +54,7 @@ ModelImporter:
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
-    importLights: 1
+    importLights: 0
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0

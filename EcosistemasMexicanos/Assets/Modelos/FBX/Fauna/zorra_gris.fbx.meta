@@ -5,10 +5,10 @@ ModelImporter:
   internalIDToNameTable: []
   externalObjects:
   - first:
-      type: UnityEngine:Material
+      type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: initialShadingGroup1
-    second: {fileID: 2100000, guid: dbaa0aba0d48054468e39d486d54676a, type: 2}
+      name: gltf_embedded_1@channels=A
+    second: {fileID: 2800000, guid: 93ce5d7f926e0b14c970e03862a0befa, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

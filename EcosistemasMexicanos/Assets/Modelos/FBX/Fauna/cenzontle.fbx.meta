@@ -13,7 +13,7 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: 130k_uv_b_Default_OBJ_Diffuse
-    second: {fileID: 2800000, guid: 1faac401882c34466aad59401e4fb515, type: 3}
+    second: {fileID: 2800000, guid: c25955f8c7668534db7ec0a3e911977b, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

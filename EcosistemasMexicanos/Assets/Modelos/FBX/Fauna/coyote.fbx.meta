@@ -18,7 +18,7 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: bakedmap_baseTexBaked
-    second: {fileID: 2800000, guid: dd13d410e75354cb486f13bd1f7afe5f, type: 3}
+    second: {fileID: 2800000, guid: 5cfc4eac2d0e64048993e119f237f99a, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

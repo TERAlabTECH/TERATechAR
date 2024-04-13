@@ -3,7 +3,17 @@ guid: 1e0d329eedf3c489b90f2df39355f499
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: olive-leaves
+    second: {fileID: 2100000, guid: e89f96dd23675dd4ab42728a5f85d8a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: olive-tree-bark
+    second: {fileID: 2100000, guid: a7d3cad3e8284074fa27526ca9671c9a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -44,7 +54,7 @@ ModelImporter:
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
-    importLights: 1
+    importLights: 0
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0

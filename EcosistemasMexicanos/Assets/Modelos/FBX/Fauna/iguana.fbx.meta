@@ -33,27 +33,27 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Leguan_tex0
-    second: {fileID: 2800000, guid: a359790e043d74a8d812f05035d439cd, type: 3}
+    second: {fileID: 2800000, guid: d1cf58826a5545c4db6df651180f8ae6, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Leguan_tex1
-    second: {fileID: 2800000, guid: 8be43c7d3109b466da2e63262caffb02, type: 3}
+    second: {fileID: 2800000, guid: 7610caa05bc27994aa28d74803996e9e, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Leguan_tex2
-    second: {fileID: 2800000, guid: cdcbdd5180c6d4f24bc6fc4ec5a5066a, type: 3}
+    second: {fileID: 2800000, guid: 5f9eaf0100e396546bd81b2492519213, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Leguan_tex3
-    second: {fileID: 2800000, guid: 6946ac34bbdc84acd827f741b64a4da5, type: 3}
+    second: {fileID: 2800000, guid: 90f6a0ca8add8c146852e89d64cc7a5b, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Leguan_tex4
-    second: {fileID: 2800000, guid: a50359b44d40c47069afc84e006055b3, type: 3}
+    second: {fileID: 2800000, guid: 0b3ae0ba70fd3424c9b18979fcf412d4, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

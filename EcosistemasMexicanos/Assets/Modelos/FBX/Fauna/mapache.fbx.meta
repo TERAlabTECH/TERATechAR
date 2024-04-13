@@ -13,7 +13,7 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: RaccoonTexture
-    second: {fileID: 2800000, guid: 269dd494d4a494562bc8a65d992e5e3a, type: 3}
+    second: {fileID: 2800000, guid: 63954ba347514d447839bd4d716a6f39, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

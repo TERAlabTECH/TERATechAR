@@ -18,7 +18,7 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: axl_color
-    second: {fileID: 2800000, guid: d4a4369c4678346898a7516dd2ae0d50, type: 3}
+    second: {fileID: 2800000, guid: 49ddd9d5e826b314d98a55096daef6cc, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

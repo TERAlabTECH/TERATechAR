@@ -23,17 +23,17 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Bagel_Seal_Diffuse
-    second: {fileID: 2800000, guid: 4a8a48e431489476db8dd92fff790bd3, type: 3}
+    second: {fileID: 2800000, guid: fee0be0524d4d614d95c721b24d2ad7d, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Bagel_Seal_Normal
-    second: {fileID: 2800000, guid: a92042bc325bc41ddb7e4b8b510283e0, type: 3}
+    second: {fileID: 2800000, guid: 6abbb9c9636b216488f77ef5e1081956, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Bagel_Seal_Roughness
-    second: {fileID: 2800000, guid: a0cfe9defb9a84e55bdbc541be64a6a6, type: 3}
+    second: {fileID: 2800000, guid: 6285679e70922f147876fae369ec0f4c, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
