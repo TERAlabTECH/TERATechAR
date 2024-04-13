@@ -5,20 +5,30 @@ ModelImporter:
   internalIDToNameTable: []
   externalObjects:
   - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Maple1_MZRT_a
+    second: {fileID: 2100000, guid: 615995dec0bb84017ba157434e7edaaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Maple1_MZRT_b
+    second: {fileID: 2100000, guid: 23dc5206fc681441f9263d0c605c26e4, type: 2}
+  - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: T_Maple1_MZRT_a_BaseColor
-    second: {fileID: 2800000, guid: c422c9058225bdb4ab896936a227ab6e, type: 3}
+    second: {fileID: 2800000, guid: a5d88683631b84dc2beb20b0cd1ed161, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: T_Maple1_MZRT_b_BaseColor
-    second: {fileID: 2800000, guid: 57aca5d946d7d754ab17525d353a8305, type: 3}
+    second: {fileID: 2800000, guid: adf741c364159468d9a48bf1141f9822, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: T_Maple1_MZRT_b_Opacity
-    second: {fileID: 2800000, guid: bbc9c22dc3e7957488bea40214167038, type: 3}
+    second: {fileID: 2800000, guid: 1dae519322dd24495950525f09439f5b, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -58,7 +68,7 @@ ModelImporter:
     importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
+    importCameras: 0
     importLights: 0
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
