@@ -3,12 +3,7 @@ guid: 0895d7a23b25e4d759ddb3b89c25d898
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: kruk-mat_Diffuse
-    second: {fileID: 2800000, guid: 34335c188703e6d4596e580b50eb7dd1, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

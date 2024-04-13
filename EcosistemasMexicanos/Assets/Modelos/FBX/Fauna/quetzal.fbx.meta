@@ -8,12 +8,12 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: 12245_Bird_diffuse
-    second: {fileID: 2800000, guid: 65bdcfd93505cc54698468b8ed62c723, type: 3}
+    second: {fileID: 2800000, guid: 8892118a96eba854f8eb1cb6d67fc213, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Map__7_Normal Bump
-    second: {fileID: 2800000, guid: bf5c67cceec2b0248aaccae9d385f27c, type: 3}
+    second: {fileID: 2800000, guid: 056a502ac9b908d4a981e7972fb4afae, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

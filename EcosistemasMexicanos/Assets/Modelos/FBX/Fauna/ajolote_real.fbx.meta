@@ -5,16 +5,6 @@ ModelImporter:
   internalIDToNameTable: []
   externalObjects:
   - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: BSurfaceMesh
-    second: {fileID: 2100000, guid: c7aada268b640214998fa7f6b3ef1fa7, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Fur Material
-    second: {fileID: 2100000, guid: c43546f09d93d8e479925b7c3cdfd9d0, type: 2}
-  - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: axl_color

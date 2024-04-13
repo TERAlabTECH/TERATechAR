@@ -3,12 +3,7 @@ guid: 66581ada3092449b1b9ce707cb340cca
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: gltf_embedded_1@channels=A
-    second: {fileID: 2800000, guid: 93ce5d7f926e0b14c970e03862a0befa, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

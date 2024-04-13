@@ -3,12 +3,7 @@ guid: 96f2a1d36f449453da8e9337b480654a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: WhatsApp_Image_2023-05-26_at_00.45.51
-    second: {fileID: 2800000, guid: 1d5bc913fa534e347831fcde2ffa8830, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -48,7 +43,7 @@ ModelImporter:
     importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 0
+    importCameras: 1
     importLights: 0
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2

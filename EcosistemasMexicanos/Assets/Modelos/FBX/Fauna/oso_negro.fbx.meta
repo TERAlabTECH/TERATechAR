@@ -8,12 +8,12 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Black_bear_mat_BaseColor
-    second: {fileID: 2800000, guid: d82ee811016cf6345ab02a2c6ab2c8e6, type: 3}
+    second: {fileID: 2800000, guid: 7de70ffc05f781b48bdea8eb82246e81, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Black_bear_mat_Normal
-    second: {fileID: 2800000, guid: 31946f854bbe8e14bb13337a31a6888b, type: 3}
+    second: {fileID: 2800000, guid: 13919e2000e68c64bbfa92967979e258, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
