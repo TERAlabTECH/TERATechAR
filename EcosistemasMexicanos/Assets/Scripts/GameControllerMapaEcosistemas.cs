@@ -95,39 +95,8 @@ public class GameControllerMapaEcosistemas : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q)) // Assuming Q is for Semiarido
-        {
-            ActivarEcosistema("Semiarido");
-        }
-        if (Input.GetKeyDown(KeyCode.W)) // Assuming W is for Desierto
-        {
-            ActivarEcosistema("Desierto");
-
-        }
-        if (Input.GetKeyDown(KeyCode.E)) // Assuming E is for Arrecife
-        {
-            ActivarEcosistema("Arrecife");
-        }
-        if (Input.GetKeyDown(KeyCode.R)) // Assuming R is for Selva Tropical
-        {
-            ActivarEcosistema("SelvaTropical");
-        }
-        if (Input.GetKeyDown(KeyCode.T)) // Assuming T is for Bosque
-        {
-            ActivarEcosistema("Bosque");
-        }
-        if (Input.GetKeyDown(KeyCode.Y)) // Assuming Y is for Bosque Tropical
-        {
-            ActivarEcosistema("BosqueTropical");
-        }
-        if (Input.GetKeyDown(KeyCode.U)) // Assuming U is for Matorral
-        {
-            ActivarEcosistema("Matorral");
-        }
-        if (Input.GetKeyDown(KeyCode.P)) // Assuming U is for Matorral
-        {
-            ResetAllEstados();
-        }
+        
+        
     }
 
 
@@ -153,6 +122,51 @@ public class GameControllerMapaEcosistemas : MonoBehaviour
             est.Bajar();
             est.ChangeColor(Color.white); // Change color back to white when not elevated
         }
+    }
+
+    public void ActivateSemiarido()
+    {
+        ActivarEcosistema("Semiarido");
+    }
+
+    public void ActivateDesierto()
+    {
+        ActivarEcosistema("Desierto");
+    }
+
+    public void ActivateArrecife()
+    {
+        ActivarEcosistema("Arrecife");
+    }
+
+    public void ActivateSelvaTropical()
+    {
+        ActivarEcosistema("SelvaTropical");
+    }
+
+    public void ActivateSelvaLluviosa()
+    {
+        ActivarEcosistema("SelvaLLuviosa");
+    }
+
+    public void ActivateSelva()
+    {
+        ActivarEcosistema("Selva");
+    }
+
+    public void ActivateBosque()
+    {
+        ActivarEcosistema("Bosque");
+    }
+
+    public void ActivateBosqueTropical()
+    {
+        ActivarEcosistema("BosqueTropical");
+    }
+
+    public void ActivateMatorral()
+    {
+        ActivarEcosistema("Matorral");
     }
 
 

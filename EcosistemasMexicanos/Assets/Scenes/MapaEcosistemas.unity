@@ -682,6 +682,41 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 733633269}
     m_Modifications:
+    - target: {fileID: 911475412207446541, guid: b2c52d7291fdf4f25907869f67d68847,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 911475412207446541, guid: b2c52d7291fdf4f25907869f67d68847,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 911475412207446541, guid: b2c52d7291fdf4f25907869f67d68847,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1742739729}
+    - target: {fileID: 911475412207446541, guid: b2c52d7291fdf4f25907869f67d68847,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 911475412207446541, guid: b2c52d7291fdf4f25907869f67d68847,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ActivateSelvaTropical
+      objectReference: {fileID: 0}
+    - target: {fileID: 911475412207446541, guid: b2c52d7291fdf4f25907869f67d68847,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameControllerMapaEcosistemas, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 911475412207446541, guid: b2c52d7291fdf4f25907869f67d68847,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2086220921747822561, guid: b2c52d7291fdf4f25907869f67d68847,
         type: 3}
       propertyPath: m_Pivot.x
@@ -787,6 +822,76 @@ PrefabInstance:
       propertyPath: m_Name
       value: PanelSelva
       objectReference: {fileID: 0}
+    - target: {fileID: 6216970925648326195, guid: b2c52d7291fdf4f25907869f67d68847,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6216970925648326195, guid: b2c52d7291fdf4f25907869f67d68847,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6216970925648326195, guid: b2c52d7291fdf4f25907869f67d68847,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1742739729}
+    - target: {fileID: 6216970925648326195, guid: b2c52d7291fdf4f25907869f67d68847,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6216970925648326195, guid: b2c52d7291fdf4f25907869f67d68847,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ActivateSelva
+      objectReference: {fileID: 0}
+    - target: {fileID: 6216970925648326195, guid: b2c52d7291fdf4f25907869f67d68847,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameControllerMapaEcosistemas, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6216970925648326195, guid: b2c52d7291fdf4f25907869f67d68847,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688873932097041311, guid: b2c52d7291fdf4f25907869f67d68847,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688873932097041311, guid: b2c52d7291fdf4f25907869f67d68847,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688873932097041311, guid: b2c52d7291fdf4f25907869f67d68847,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1742739729}
+    - target: {fileID: 8688873932097041311, guid: b2c52d7291fdf4f25907869f67d68847,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688873932097041311, guid: b2c52d7291fdf4f25907869f67d68847,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ActivateSelvaLluviosa
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688873932097041311, guid: b2c52d7291fdf4f25907869f67d68847,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameControllerMapaEcosistemas, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688873932097041311, guid: b2c52d7291fdf4f25907869f67d68847,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -830,6 +935,76 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 733633269}
     m_Modifications:
+    - target: {fileID: 1108456809535379621, guid: d03519fe912844bc98bdf22d0c91cecd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108456809535379621, guid: d03519fe912844bc98bdf22d0c91cecd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108456809535379621, guid: d03519fe912844bc98bdf22d0c91cecd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1742739729}
+    - target: {fileID: 1108456809535379621, guid: d03519fe912844bc98bdf22d0c91cecd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108456809535379621, guid: d03519fe912844bc98bdf22d0c91cecd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ActivateBosque
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108456809535379621, guid: d03519fe912844bc98bdf22d0c91cecd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameControllerMapaEcosistemas, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108456809535379621, guid: d03519fe912844bc98bdf22d0c91cecd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472664812695600392, guid: d03519fe912844bc98bdf22d0c91cecd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472664812695600392, guid: d03519fe912844bc98bdf22d0c91cecd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472664812695600392, guid: d03519fe912844bc98bdf22d0c91cecd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1742739729}
+    - target: {fileID: 2472664812695600392, guid: d03519fe912844bc98bdf22d0c91cecd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472664812695600392, guid: d03519fe912844bc98bdf22d0c91cecd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ActivateBosqueTropical
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472664812695600392, guid: d03519fe912844bc98bdf22d0c91cecd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameControllerMapaEcosistemas, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472664812695600392, guid: d03519fe912844bc98bdf22d0c91cecd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2927541945041127153, guid: d03519fe912844bc98bdf22d0c91cecd,
         type: 3}
       propertyPath: m_Pivot.x
@@ -1189,11 +1364,16 @@ PrefabInstance:
     - target: {fileID: 4601831937565969672, guid: 794289f12a54148c68881be16ac17f9e,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4601831937565969672, guid: 794289f12a54148c68881be16ac17f9e,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4601831937565969672, guid: 794289f12a54148c68881be16ac17f9e,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4601831937565969672, guid: 794289f12a54148c68881be16ac17f9e,
@@ -1203,7 +1383,17 @@ PrefabInstance:
       objectReference: {fileID: 1742739732}
     - target: {fileID: 4601831937565969672, guid: 794289f12a54148c68881be16ac17f9e,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1742739729}
+    - target: {fileID: 4601831937565969672, guid: 794289f12a54148c68881be16ac17f9e,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4601831937565969672, guid: 794289f12a54148c68881be16ac17f9e,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4601831937565969672, guid: 794289f12a54148c68881be16ac17f9e,
@@ -1213,22 +1403,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4601831937565969672, guid: 794289f12a54148c68881be16ac17f9e,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ActivateMatorral
+      objectReference: {fileID: 0}
+    - target: {fileID: 4601831937565969672, guid: 794289f12a54148c68881be16ac17f9e,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PanelController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4601831937565969672, guid: 794289f12a54148c68881be16ac17f9e,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameControllerMapaEcosistemas, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4601831937565969672, guid: 794289f12a54148c68881be16ac17f9e,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 4601831937565969672, guid: 794289f12a54148c68881be16ac17f9e,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5156670256063815284, guid: 794289f12a54148c68881be16ac17f9e,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5156670256063815284, guid: 794289f12a54148c68881be16ac17f9e,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5156670256063815284, guid: 794289f12a54148c68881be16ac17f9e,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5156670256063815284, guid: 794289f12a54148c68881be16ac17f9e,
@@ -1238,7 +1448,17 @@ PrefabInstance:
       objectReference: {fileID: 1742739732}
     - target: {fileID: 5156670256063815284, guid: 794289f12a54148c68881be16ac17f9e,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1742739729}
+    - target: {fileID: 5156670256063815284, guid: 794289f12a54148c68881be16ac17f9e,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5156670256063815284, guid: 794289f12a54148c68881be16ac17f9e,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5156670256063815284, guid: 794289f12a54148c68881be16ac17f9e,
@@ -1248,12 +1468,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5156670256063815284, guid: 794289f12a54148c68881be16ac17f9e,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ActivateArrecife
+      objectReference: {fileID: 0}
+    - target: {fileID: 5156670256063815284, guid: 794289f12a54148c68881be16ac17f9e,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PanelController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5156670256063815284, guid: 794289f12a54148c68881be16ac17f9e,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameControllerMapaEcosistemas, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5156670256063815284, guid: 794289f12a54148c68881be16ac17f9e,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5156670256063815284, guid: 794289f12a54148c68881be16ac17f9e,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6607307785377165599, guid: 794289f12a54148c68881be16ac17f9e,
@@ -1409,11 +1644,16 @@ PrefabInstance:
     - target: {fileID: 7652217863664073554, guid: 794289f12a54148c68881be16ac17f9e,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7652217863664073554, guid: 794289f12a54148c68881be16ac17f9e,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7652217863664073554, guid: 794289f12a54148c68881be16ac17f9e,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7652217863664073554, guid: 794289f12a54148c68881be16ac17f9e,
@@ -1423,7 +1663,17 @@ PrefabInstance:
       objectReference: {fileID: 1742739732}
     - target: {fileID: 7652217863664073554, guid: 794289f12a54148c68881be16ac17f9e,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1742739729}
+    - target: {fileID: 7652217863664073554, guid: 794289f12a54148c68881be16ac17f9e,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7652217863664073554, guid: 794289f12a54148c68881be16ac17f9e,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7652217863664073554, guid: 794289f12a54148c68881be16ac17f9e,
@@ -1433,12 +1683,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7652217863664073554, guid: 794289f12a54148c68881be16ac17f9e,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ActivateDesierto
+      objectReference: {fileID: 0}
+    - target: {fileID: 7652217863664073554, guid: 794289f12a54148c68881be16ac17f9e,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PanelController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7652217863664073554, guid: 794289f12a54148c68881be16ac17f9e,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameControllerMapaEcosistemas, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7652217863664073554, guid: 794289f12a54148c68881be16ac17f9e,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7652217863664073554, guid: 794289f12a54148c68881be16ac17f9e,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8283695365164863493, guid: 794289f12a54148c68881be16ac17f9e,
@@ -1494,11 +1759,16 @@ PrefabInstance:
     - target: {fileID: 8961724009716910970, guid: 794289f12a54148c68881be16ac17f9e,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8961724009716910970, guid: 794289f12a54148c68881be16ac17f9e,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8961724009716910970, guid: 794289f12a54148c68881be16ac17f9e,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8961724009716910970, guid: 794289f12a54148c68881be16ac17f9e,
@@ -1508,7 +1778,17 @@ PrefabInstance:
       objectReference: {fileID: 1742739732}
     - target: {fileID: 8961724009716910970, guid: 794289f12a54148c68881be16ac17f9e,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1742739729}
+    - target: {fileID: 8961724009716910970, guid: 794289f12a54148c68881be16ac17f9e,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8961724009716910970, guid: 794289f12a54148c68881be16ac17f9e,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8961724009716910970, guid: 794289f12a54148c68881be16ac17f9e,
@@ -1518,12 +1798,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8961724009716910970, guid: 794289f12a54148c68881be16ac17f9e,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ActivateSemiarido
+      objectReference: {fileID: 0}
+    - target: {fileID: 8961724009716910970, guid: 794289f12a54148c68881be16ac17f9e,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PanelController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8961724009716910970, guid: 794289f12a54148c68881be16ac17f9e,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameControllerMapaEcosistemas, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8961724009716910970, guid: 794289f12a54148c68881be16ac17f9e,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8961724009716910970, guid: 794289f12a54148c68881be16ac17f9e,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
