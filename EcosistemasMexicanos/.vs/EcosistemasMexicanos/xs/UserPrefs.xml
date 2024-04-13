@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{739C2403-9209-D90B-B9E3-152F8C28B105}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameControllerMapaEcosistemas.cs">
+    <Files>
+      <File FileName="Assets/Scripts/GameControllerMapaEcosistemas.cs" Line="46" Column="13" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EcosistemasMexicanos" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="13e81e16-068e-4362-a66d-19423f239b29" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+</Properties>
