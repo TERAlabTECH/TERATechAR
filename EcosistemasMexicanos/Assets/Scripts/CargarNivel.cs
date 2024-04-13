@@ -15,18 +15,13 @@ public class CargarNivel : MonoBehaviour
         else if (n == 2) //Actualmente en el canvas no hay botón de N.2 pq todavía no está listo
         //Cuando lo haya, solo hay que cambiar el parámetro del OnClick a 2
         {
-            SceneManager.LoadScene("Memorama");
+            SceneManager.LoadScene("JuegoMemoria");
         }
 
     }
 
-    public void nivelGanado()
-    {
-        SceneManager.LoadScene("InterfazTrancision");
-    }
-
     public void pantallaDeInicio()
     {
-        SceneManager.LoadScene("Inicio");
+        SceneManager.LoadScene("1 - IntroExperiencia");
     }
 }

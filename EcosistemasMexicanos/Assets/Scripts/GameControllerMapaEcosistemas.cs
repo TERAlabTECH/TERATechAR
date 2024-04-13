@@ -8,6 +8,9 @@ using Vector3 = UnityEngine.Vector3;
 
 public class GameControllerMapaEcosistemas : MonoBehaviour
 {
+    [Header("Scripts")]
+    public CargarNivel instruccionesCargarNivel; //El script que se encarga de la transición entre niveles
+
     [Header("Suelo")]//Agregamos un suelo a la experiencia para que no se pierdan los modelos con el suelo real
     [SerializeField] private GameObject suelo; 
 
