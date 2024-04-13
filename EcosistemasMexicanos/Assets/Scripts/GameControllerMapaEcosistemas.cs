@@ -63,19 +63,18 @@ public class GameControllerMapaEcosistemas : MonoBehaviour
             Sinaloa,Sonora,Tabasco,Tamaulipas,Tlaxcala,Veracruz,Yucatan,Zacatecas
         };
 
-        // Poner colores más adoc
         ecosistemaColores = new Dictionary<string, Color>
-        {
-            { "Semiarido", Color.yellow },
-            { "Desierto", Color.red },
-            { "Arrecife", Color.cyan },
-            { "SelvaTropical", Color.green },
-            { "Bosque", Color.black },
-            { "BosqueTropical", Color.magenta },
-            { "Matorral", Color.gray },
-            { "Selva", Color.blue },
-            { "SelvaLLuviosa", Color.gray }
-        };
+    {
+        { "Semiarido", Color.yellow },
+        { "Desierto", new Color32(0x63, 0x48, 0x03, 0xFF) }, // #634803
+        { "Arrecife", new Color32(0x01, 0x4b, 0x63, 0xFF) }, // #014b63
+        { "SelvaTropical", new Color32(0x01, 0x63, 0x32, 0xFF) }, // #016332
+        { "Bosque", new Color32(0x46, 0x87, 0x4d, 0xFF) }, // #46874d
+        { "BosqueTropical", new Color32(0x14, 0x63, 0x1c, 0xFF) }, // #14631c
+        { "Matorral", new Color32(0x4d, 0x25, 0x01, 0xFF) }, // #4d2501
+        { "Selva", new Color32(0x01, 0x4d, 0x1e, 0xFF) }, // #014d1e
+        { "SelvaLLuviosa", new Color32(0x01, 0x4d, 0x32, 0xFF) }, // #014d32
+    };
 
     }
 
