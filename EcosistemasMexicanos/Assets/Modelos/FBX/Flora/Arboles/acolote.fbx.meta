@@ -5,15 +5,20 @@ ModelImporter:
   internalIDToNameTable: []
   externalObjects:
   - first:
-      type: UnityEngine:Material
+      type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: Bark_Mat
-    second: {fileID: 2100000, guid: 1b089ef1a8d506846aa52ed35ce0a55e, type: 2}
+      name: Bark
+    second: {fileID: 2800000, guid: 5ee5e1210e7af6a41a988782f0eaa1ce, type: 3}
   - first:
-      type: UnityEngine:Material
+      type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: Pine_v2_Mat
-    second: {fileID: 2100000, guid: 247ef7599cfa2df48b4eeb1f744f70f4, type: 2}
+      name: Pine_v2
+    second: {fileID: 2800000, guid: 824e753ee8811c24bbb6e9ddfa60b0c5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pine_v2_Opacity
+    second: {fileID: 2800000, guid: a2bd7b912d87b3d449ae82b5d5de9aaa, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

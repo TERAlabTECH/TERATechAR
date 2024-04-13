@@ -3,7 +3,22 @@ guid: 85058bcfd09ea40e098cf82064dd0b7b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Needles
+    second: {fileID: 2800000, guid: 68de5939179f51a4ba1f7ce08bf78545, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Retopo_graftree2.001_Bake1_PBR StoA_Diffuse
+    second: {fileID: 2800000, guid: 30fd275ec0da4e14ab4481db2079383a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: graf2branches1k_upscayl_4x_ultrasharp
+    second: {fileID: 2800000, guid: d81d0a508b8624f4895a8cc95c8a05f7, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -44,7 +59,7 @@ ModelImporter:
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
-    importLights: 1
+    importLights: 0
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0

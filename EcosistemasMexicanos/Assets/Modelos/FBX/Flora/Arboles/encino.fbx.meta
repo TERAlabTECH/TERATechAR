@@ -3,7 +3,17 @@ guid: eafa7e5eb78234832932a72dcc928c6e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: qimhv_2K_Albedo
+    second: {fileID: 2800000, guid: fe54e51163b0b2b49ad365196cf87c0d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tihodjqbw_2K_Albedo
+    second: {fileID: 2800000, guid: 6b7213de88aeb6a438b8503dacbc36bd, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -44,7 +54,7 @@ ModelImporter:
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
-    importLights: 1
+    importLights: 0
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0

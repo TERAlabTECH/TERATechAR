@@ -3,7 +3,27 @@ guid: 91a2aa6fa3d1b4f42915a388b26ad24c
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LS12_Bark01_dif_su
+    second: {fileID: 2800000, guid: ce01a0c6cbda19e49bb383fba62d2438, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LS12_Branch01_dif_su
+    second: {fileID: 2800000, guid: 1b759bbbf6b1f3d45a88d8bdb5f63258, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LS12_Bud01_gls_su
+    second: {fileID: 2800000, guid: 72cad8282d6f342429462d1990fef1fb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LS12_Flower01_alp_su
+    second: {fileID: 2800000, guid: e74a444c61383d64d8a058c57516b7f5, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -44,7 +64,7 @@ ModelImporter:
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
-    importLights: 1
+    importLights: 0
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0

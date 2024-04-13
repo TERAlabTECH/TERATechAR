@@ -7,13 +7,33 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: olive-leaves
-    second: {fileID: 2100000, guid: e89f96dd23675dd4ab42728a5f85d8a6, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: olive-tree-bark
     second: {fileID: 2100000, guid: a7d3cad3e8284074fa27526ca9671c9a, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: olive-branch-cards
+    second: {fileID: 2800000, guid: 2ac7e5791cd131144adf14fa9e5cac30, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: olive-branch-cards-alpha
+    second: {fileID: 2800000, guid: fa97e5d91875e1e4184c6afb3a81191e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: olive-branch-cards-normal
+    second: {fileID: 2800000, guid: 72aa90ce827084e4a824f8ebc4f429df, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tree-normal
+    second: {fileID: 2800000, guid: 7ddfa883fdc03184389e4807177b3ad8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tree-specular
+    second: {fileID: 2800000, guid: efed400bff39ebc419635afe6ee35f88, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

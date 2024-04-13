@@ -3,7 +3,22 @@ guid: 073f71fcfb3914b5c828291b77f75fdc
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mahogany_bark_albedo_001
+    second: {fileID: 2800000, guid: 7d42424c37090924aa32487bbeee63b4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mahogany_leaf_001_albedo_003
+    second: {fileID: 2800000, guid: 1d3fe36cc32182840bd09f00e5dd74a0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stem_001
+    second: {fileID: 2800000, guid: 4c5d1da9435034845a6ae4893c432a90, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -44,7 +59,7 @@ ModelImporter:
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
-    importLights: 1
+    importLights: 0
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0

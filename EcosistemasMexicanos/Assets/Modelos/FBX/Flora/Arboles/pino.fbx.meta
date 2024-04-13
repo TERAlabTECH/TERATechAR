@@ -3,7 +3,17 @@ guid: 4b1e35fc02c2845f093190ca2f896b36
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Leavs_basecolor_.tga
+    second: {fileID: 2800000, guid: 400ee37e54df5c34f9cdf79aae3d0b23, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Trank_basecolor.tga
+    second: {fileID: 2800000, guid: 350c607f5a835ff4fb7164de0c705bd5, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -44,7 +54,7 @@ ModelImporter:
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
-    importLights: 1
+    importLights: 0
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0

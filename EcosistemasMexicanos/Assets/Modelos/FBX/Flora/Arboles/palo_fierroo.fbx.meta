@@ -3,7 +3,27 @@ guid: df13b3d830cbb429e993f064f648fb00
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bark_color
+    second: {fileID: 2800000, guid: f7d9b8aae95fa3047a7f21a58351daac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bark_normal
+    second: {fileID: 2800000, guid: b7f485eafb5f1d44eb14aac208b1b35e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bark_roughness
+    second: {fileID: 2800000, guid: e8bfcad2e760dd345966eb45bf86127e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cherry_foliage_plane
+    second: {fileID: 2800000, guid: e0faec98d7303814aa6060b0e42ccc58, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -44,7 +64,7 @@ ModelImporter:
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
-    importLights: 1
+    importLights: 0
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
