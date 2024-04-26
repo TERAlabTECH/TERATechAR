@@ -160,7 +160,7 @@ PlayerSettings:
     Android: com.vuforia.engine.VuforiaEngine
     Lumin: com.PTCInc.VuforiaEngine
     Standalone: com.PTCInc.VuforiaEngine
-    iPhone: com.vuforia.engine.VuforiaEngine
+    iPhone: com.tera.experiencia.Ecosistemas
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -985,7 +985,6 @@ PlayerSettings:
   metroSplashScreenUseBackgroundColor: 1
   platformCapabilities:
     WindowsStoreApps:
-      CodeGeneration: False
       OfflineMapsManagement: False
       HumanInterfaceDevice: False
       Location: False
@@ -1019,9 +1018,9 @@ PlayerSettings:
       RecordedCallsFolder: False
       Contacts: False
       Proximity: False
-      InternetClient: True
+      CodeGeneration: False
       BackgroundMediaPlayback: False
-      Proximity: False
+      InternetClient: True
   metroTargetDeviceFamilies:
     Desktop: False
     Holographic: False
