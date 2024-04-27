@@ -5,18 +5,13 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [Header("Escenas")] 
-    [SerializeField] private Escena EarthVsMoon;
-    [SerializeField] private Escena EarthVsSun;
-    [SerializeField] private Escena SunVsProxima;
+    [SerializeField] private GameObject EarthVsMoon;
+    [SerializeField] private GameObject EarthVsSun;
+    [SerializeField] private GameObject SunVsProxima;
     // Start is called before the first frame update
 
-    private Escena[] escenas; 
-    void Awake()
-    {
-        escenas= new Escena[] {
-            EarthVsMoon, EarthVsSun, SunVsProxima
-        };
-    }
+   
+    
     void Start()
     {
         
@@ -31,7 +26,7 @@ public class GameManager : MonoBehaviour
     public void ShowScene(GameObject scene)
     {   
 
-        scene.SetActive(true);
+        scene.SetActive(false);
     }
 
 }
