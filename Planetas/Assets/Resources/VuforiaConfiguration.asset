@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: 
+    vuforiaLicenseKey: AbB1m/f/////AAABmQ8btSEMYU21lM2tl/r9TvQ9wP5EcadEIi9D82KJ4TBvkmBiMwqCZAX+73ykdYGQEfxJEFqz1/wke955GsxWgSAsbuonxhHaHFOn0nNAje+Ft5qa/anTKSl1hFSiNljpYFzELaqjwNw1fIWZ7r1XwVNNFH7Z8AQytLmYypUMPCo/LXDvSd4n7GgmDiXEQXNrsAWDILRWs+ITP4Oph3NrFYvGJtMb//+IE6UwWQhlbn4sBJ6qWIn2zC56wb88PxI5bfLAWDtqWXgi7aFx6cC42up672S93ToCTnGmXY/9quH7keDbf2qR0PuYzn5Vz+uyVqtZPhuNq0lWBIesk51K2b19rTJuAWddSIq9KPBpbp+J
     ufoLicenseKey: QVp2b1Q4SC8vLy8vQUFBQUtJMENVOWFybjBRUGtHbWRoL0ZxWnpnSlN2ZVh3MkVYVjBnWFk2TjJwbllIVUIwK092WWt5Tnh4anBKcXdjZVJGRlgxNXJUMkhHZGpUaDd2WnB2T29rcUZnWCtBNXZmMkpXMmJxbWNhOEFlZVExOWg3b0gzKzArMjh2YmhDQzJDOGFlM0JiaFFhQjN2dU1OR25JWUF1bTVpTFptREZXZ1FRTnA1NnQ5bFlVcHRHMk9jWWVIMzc4UzNlc2VRNWVIelpYaytRd05ST2lTeHdJWXE0eW9paGorb3N5aStGSGMrM2Y1NWN5R2x0czF5bG5uc3hNMGV0RXg4MXYrYUZzb29nTjhMbmxSVXRiS09Vd2lyeVE2UDZtV0phcjVYZmNqSmI3MlFObWE2Y0lwQnYxcnZURngvM1hBbllHckM5MURFd1FyZElBdk5hRlhGVXFhNE5QVktKN0JLd0haVkd3OVEzOXhjSitWekJQYkc=
     delayedInitialization: 0
     cameraFocusModeSetting: 2
@@ -23,18 +23,21 @@ MonoBehaviour:
     modelTargetRecoWhileExtendedTracked: 1
     shareRecordingsInITunes: 0
     logLevel: 0
-    version: 10.0.2
+    version: 10.22.5
     eulaAcceptedVersions: '{"Values":["","10.14","10.17","10.18","0.0","10.21","10.22"]}'
   database:
     disableModelExtraction: 0
   shaders:
-    depthMaskShader: {fileID: 0}
-    outlineShader: {fileID: 0}
+    depthMaskShader: {fileID: 4800000, guid: 9894afa5f3a5e4bbca625981beb1b20e, type: 3}
+    outlineShader: {fileID: 4800000, guid: 88d3b6b5cf364476ca39fcec255331b1, type: 3}
     unlitTransparentShader: {fileID: 10750, guid: 0000000000000000f000000000000000,
       type: 0}
+  runtimeResources:
+    register: {fileID: 11400000, guid: caeba6ecda451416c803389918ddea4a, type: 2}
   videoBackground:
     numDivisions: 2
-    videoBackgroundShader: {fileID: 0}
+    videoBackgroundShader: {fileID: 4800000, guid: 144dfca22ac584ade9e538e24a5ddded,
+      type: 3}
     unlitShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
     videoBackgroundEnabled: 1
   deviceTracker:
