@@ -8,12 +8,16 @@ public class SceneManager : MonoBehaviour
     [SerializeField] private GameObject Escena1;
     [SerializeField] private GameObject Escena2;
     [SerializeField] private GameObject Escena3;
+
+    [SerializeField] private GameObject Escena4;
+
     // Start is called before the first frame update
     void Start()
     {
         Escena1.SetActive(true);
         Escena2.SetActive(false);
         Escena3.SetActive(false);
+       
     }
 
     // Update is called once per frame
@@ -31,6 +35,7 @@ public class SceneManager : MonoBehaviour
     {
         Escena3.SetActive(true);
     }
+    
 
 
     // If you want to toggle it off again with the same or a different button:
@@ -39,6 +44,7 @@ public class SceneManager : MonoBehaviour
         Escena1.SetActive(false);
         Escena2.SetActive(false);
         Escena3.SetActive(false);
+        
     }
 
 }
