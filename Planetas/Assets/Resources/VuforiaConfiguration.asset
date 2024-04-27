@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2067402452, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: VuforiaConfiguration
+  m_EditorClassIdentifier: 
+  vuforia:
+    vuforiaLicenseKey: 
+    ufoLicenseKey: QVp2b1Q4SC8vLy8vQUFBQUtJMENVOWFybjBRUGtHbWRoL0ZxWnpnSlN2ZVh3MkVYVjBnWFk2TjJwbllIVUIwK092WWt5Tnh4anBKcXdjZVJGRlgxNXJUMkhHZGpUaDd2WnB2T29rcUZnWCtBNXZmMkpXMmJxbWNhOEFlZVExOWg3b0gzKzArMjh2YmhDQzJDOGFlM0JiaFFhQjN2dU1OR25JWUF1bTVpTFptREZXZ1FRTnA1NnQ5bFlVcHRHMk9jWWVIMzc4UzNlc2VRNWVIelpYaytRd05ST2lTeHdJWXE0eW9paGorb3N5aStGSGMrM2Y1NWN5R2x0czF5bG5uc3hNMGV0RXg4MXYrYUZzb29nTjhMbmxSVXRiS09Vd2lyeVE2UDZtV0phcjVYZmNqSmI3MlFObWE2Y0lwQnYxcnZURngvM1hBbllHckM5MURFd1FyZElBdk5hRlhGVXFhNE5QVktKN0JLd0haVkd3OVEzOXhjSitWekJQYkc=
+    delayedInitialization: 0
+    cameraFocusModeSetting: 2
+    cameraDeviceModeSetting: -1
+    maxSimultaneousImageTargets: 1
+    virtualSceneScaleFactor: 1
+    modelTargetRecoWhileExtendedTracked: 1
+    shareRecordingsInITunes: 0
+    logLevel: 0
+    version: 10.0.2
+    eulaAcceptedVersions: '{"Values":["","10.14","10.17","10.18","0.0","10.21","10.22"]}'
+  database:
+    disableModelExtraction: 0
+  shaders:
+    depthMaskShader: {fileID: 0}
+    outlineShader: {fileID: 0}
+    unlitTransparentShader: {fileID: 10750, guid: 0000000000000000f000000000000000,
+      type: 0}
+  videoBackground:
+    numDivisions: 2
+    videoBackgroundShader: {fileID: 0}
+    unlitShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+    videoBackgroundEnabled: 1
+  deviceTracker:
+    autoStartTracker: 1
+    arcoreRequirement: 1
+    autoImportArcore: 1
+    thirdPartyARCoreClientDetected: 0
+  playmode:
+    mRecordingPath: 
+    playModeType: 0
+  webcam:
+    renderTextureLayer: 30
+  packageInformation:
+    ARFoundationVersion: 
