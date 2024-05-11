@@ -10,18 +10,18 @@ public class CargarNivel : MonoBehaviour
     {
         if (n == 1)
         {
-            SceneManager.LoadScene("Nivel1");
+            SceneManager.LoadScene("Aviones1");
         }
         else if (n == 2) //Actualmente en el canvas no hay botón de N.2 pq todavía no está listo
         //Cuando lo haya, solo hay que cambiar el parámetro del OnClick a 2
         {
-            SceneManager.LoadScene("Nivel2");
+            SceneManager.LoadScene("Aviones2");
         }
 
     }
 
     public void pantallaDeInicio()
     {
-        SceneManager.LoadScene("Inicio");
+        SceneManager.LoadScene("Intro");
     }
 }
