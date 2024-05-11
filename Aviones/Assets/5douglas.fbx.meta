@@ -1,0 +1,634 @@
+fileFormatVersion: 2
+guid: 4dd66c2f4431bd14e9f5688a3af338bb
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite
+    second: {fileID: 2100000, guid: 496a55e247eabbb4eaf3eb977d3c5404, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite.002
+    second: {fileID: 2100000, guid: b0863968421fb974e8b8bee70c4f47b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_ai.png
+    second: {fileID: 2100000, guid: ffe79eee662171b41a21ae765491a8c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_ai2.png
+    second: {fileID: 2100000, guid: ce7686b9065d4f14a8a633290e2e3b39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_alt.png
+    second: {fileID: 2100000, guid: 335574de03703b942a421958684afe81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_asi.png
+    second: {fileID: 2100000, guid: 4a03770e5e2a18040b043ad3041c3027, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_cap.png
+    second: {fileID: 2100000, guid: 4329d89d9ae93f745830976691115428, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_cap.png.001
+    second: {fileID: 2100000, guid: 515dbb86e61db194bb7e21fd9edf56e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_carb.png
+    second: {fileID: 2100000, guid: f507e0ad02d83f24b877ed8c48a71f88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_checklist.png
+    second: {fileID: 2100000, guid: 566eb6ccbd87c6448826a5453529b4e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_chronograph.png
+    second: {fileID: 2100000, guid: 079479142db9f3d4e9cb57d0472e50c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_colors_gray.png
+    second: {fileID: 2100000, guid: 17cb9decb23f3c9469e22e48599d0fbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_cowl-flaps.png
+    second: {fileID: 2100000, guid: 7641d0e87e4b16e4e8fdba4affed7779, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_ctl-22.png
+    second: {fileID: 2100000, guid: d60245908c625d144a1801d6cb0df47b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_cyl.png
+    second: {fileID: 2100000, guid: 939bf03311a52834f9df9970d31893a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_deicepress.png
+    second: {fileID: 2100000, guid: 1e954aaff5da83447a4b4e1ba0a1cd53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_details.png
+    second: {fileID: 2100000, guid: 96aa7369751d4164f9550d2556d0e0be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_engine.png
+    second: {fileID: 2100000, guid: 38653f9fa4cac474f9b8abfd3f66df5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_fuel.png
+    second: {fileID: 2100000, guid: d9814eef0bc2d08439213e496fbc5cb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_fuelpress.png
+    second: {fileID: 2100000, guid: a714ae052d2e0b9468fa2927c37ca6b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_gear-flaps.png
+    second: {fileID: 2100000, guid: 4119c1d2ff236f6418dc5e456ae3927b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_handle.png
+    second: {fileID: 2100000, guid: 8e0678fc2737f1142a64cdd76dc561bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_hydgear.png
+    second: {fileID: 2100000, guid: 1aa6bf36a235a124da0c9ba3f69410cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_hydpress.png
+    second: {fileID: 2100000, guid: 1af18e667e5ccc943b14fe051900ef46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_ignition.png
+    second: {fileID: 2100000, guid: 4a38b0bf97d43f846869778bd514b574, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_interior.png
+    second: {fileID: 2100000, guid: 7d719bb15a7876b4db32a1e081758257, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_lamp.png
+    second: {fileID: 2100000, guid: 9b706cb2890defb458976705d0eea8e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_man.png
+    second: {fileID: 2100000, guid: 90b5fffa5c0ef014db6079bec6269146, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_oil.png
+    second: {fileID: 2100000, guid: e4beb9891d6a19b4090a1ef370cef108, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_oiltemp.png
+    second: {fileID: 2100000, guid: 5d13285b6eb132e4a9834c04b7abf07a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_overhead.png
+    second: {fileID: 2100000, guid: 2aeb8675cef77d844bee40f5ee3ce66f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_panel.png
+    second: {fileID: 2100000, guid: b161481257af05541982bdb7f2876f16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_pedals.png
+    second: {fileID: 2100000, guid: 9a4372af89ae1c342b157a07ee6b04ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_pedestal.png
+    second: {fileID: 2100000, guid: ca2b74e224530354e94b8d259e95e284, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_pilot-seat.png
+    second: {fileID: 2100000, guid: ea8166d9a1eb70d47bf9d8a44bf33783, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_propeller.png
+    second: {fileID: 2100000, guid: 206279064ee1f374f9a1a2d8396d76a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_radio-compass.png
+    second: {fileID: 2100000, guid: 46aaeeb1311643e46b425819236d5e21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_rmi.png
+    second: {fileID: 2100000, guid: 6ba4510ef87f538469bda3e87496c45c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_rpm.png
+    second: {fileID: 2100000, guid: bc25fbe25e55f8f4fb15f4ba1721eba4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_seat.png
+    second: {fileID: 2100000, guid: 82684bb2962bae14993d6e998b47de90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_sperry.png
+    second: {fileID: 2100000, guid: 1959c2156b5571b4b9dcc7ccb6d7b803, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_suction.png
+    second: {fileID: 2100000, guid: ae655c6e7a1a8b24294e0aa95b5f95cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_switch.png
+    second: {fileID: 2100000, guid: f8bcd899ee915c643a63de3aa61fe541, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_temp.png
+    second: {fileID: 2100000, guid: 1a75cf3cf63c4c641a4d72d85002dc92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_textes.png
+    second: {fileID: 2100000, guid: eb7ff02c66f4a374cbb956f866aaa52e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_texture.png
+    second: {fileID: 2100000, guid: b86d4b20bf10c554f8b4bbd7dfff3f1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_texture.png.001
+    second: {fileID: 2100000, guid: 7506aff64d915d3459566ab55e004b11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_turn.png
+    second: {fileID: 2100000, guid: 7a1b5000486d2404581dfc0c2b5e4d46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_voltmeter.png
+    second: {fileID: 2100000, guid: 12eb865df100e9b4e877eb80f1e6adea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_vor.png
+    second: {fileID: 2100000, guid: c88bcc6d534f99e46a7947afcf1104f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_vsi.png
+    second: {fileID: 2100000, guid: 643f77d72f1efba49acdb73abcb2b85b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_warning.png
+    second: {fileID: 2100000, guid: 49ff584a61e9705429099f61cd440537, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_wipers.png
+    second: {fileID: 2100000, guid: ae91d4d2ea7ed204383c68a934586d7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TransparentExt
+    second: {fileID: 2100000, guid: ae3b4554b9db25442a57cdaeb20dd1c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: transparent
+    second: {fileID: 2100000, guid: 55a5acf6a565e4d408b0a262e02ac03f, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ai
+    second: {fileID: 2800000, guid: f6d49159ec2df3943821a040b35b5c1f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ai2
+    second: {fileID: 2800000, guid: 2477494885e32134884512b65ee87796, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: alt
+    second: {fileID: 2800000, guid: d1f7c87fe0bcddd4582fa0210cb0602a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: asi
+    second: {fileID: 2800000, guid: 51f83f8938adcef4284ec7874ca2690a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cap
+    second: {fileID: 2800000, guid: 2eb8ef68c8b688b4186efbdd5fcca76b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cap2
+    second: {fileID: 2800000, guid: c525b2f7439f7dc4ea98caea953405a9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: carb
+    second: {fileID: 2800000, guid: 47ed0918d08f16743b9777ee336aebd8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: checklist
+    second: {fileID: 2800000, guid: bbe38b17012254141a8c57d3a9e4b7e8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: chronograph
+    second: {fileID: 2800000, guid: 8ad63ba8c0e23584588bbf37f69d4399, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: colors_gray
+    second: {fileID: 2800000, guid: 4698fa2d2157b9e4f8018903ddac1c3a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cowl-flaps
+    second: {fileID: 2800000, guid: 4b2f3003a6964e0428636fe5ce4c86d2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ctl-22
+    second: {fileID: 2800000, guid: 43774b8587507fd45804332660f8c0f2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cyl
+    second: {fileID: 2800000, guid: 4b71a6086053d7841860af2f0f599292, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: deicepress
+    second: {fileID: 2800000, guid: 4f763e537c02d474593b1a1454be52d1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: details
+    second: {fileID: 2800000, guid: 77f9a06572ffb9740a244e01cccd52af, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: engine
+    second: {fileID: 2800000, guid: 98ce85a058787b54aa5ddce9c4911c59, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: fuel
+    second: {fileID: 2800000, guid: 85a19006cb5a0fd4da05757cb063c0cc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: fuelpress
+    second: {fileID: 2800000, guid: d5dd9ffd080cc0f469a0c4f8e83cfa06, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: gear-flaps
+    second: {fileID: 2800000, guid: a8c37ab6063d48e448de35c97daeb62f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: handle
+    second: {fileID: 2800000, guid: 5f0190ed6c409ec4c855527923f05161, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hydgear
+    second: {fileID: 2800000, guid: 1b4611f110036d040bedfd3772c0b5ad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hydpress
+    second: {fileID: 2800000, guid: c2514a57d33bf2f4f8467703cd6a9271, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ignition
+    second: {fileID: 2800000, guid: 196940da7841e5246adb9cd6919bd641, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: interior
+    second: {fileID: 2800000, guid: 5f71a0f307920c847b294d0b881698a5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lamp
+    second: {fileID: 2800000, guid: 33863e0b8dc98b94a9074c53f3b49fd8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: man
+    second: {fileID: 2800000, guid: 8529d0884965a9e45931694a95ce86b7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: oil
+    second: {fileID: 2800000, guid: 18573805732083a499f6dcceeabdeddc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: oiltemp
+    second: {fileID: 2800000, guid: 9dc3b3a22919ca9498c96d942a129962, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: overhead
+    second: {fileID: 2800000, guid: 913fffb46fbd46740aab8f15c4217b49, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: panel
+    second: {fileID: 2800000, guid: 7a6eb6e7a60b407419e6332562cabbf5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pedals
+    second: {fileID: 2800000, guid: 02e6044e4d9c7ff499211f12b8025acd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pedestal
+    second: {fileID: 2800000, guid: 015dfee0b98ab7d48a3f073887250997, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pilot-seat
+    second: {fileID: 2800000, guid: 3fadfad9464c23c47b2027dc7a0f610c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: propeller
+    second: {fileID: 2800000, guid: 2833a88235d7aeb4c99e842c7d8e1a5c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: radio-compass
+    second: {fileID: 2800000, guid: 07a7d18bb79c8064f8204f409b9ebf9c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rmi
+    second: {fileID: 2800000, guid: f056033a3a8635544a0770f9a54f462e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rpm
+    second: {fileID: 2800000, guid: b5b6c267b49c719499a03ff7721ebbba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: seat
+    second: {fileID: 2800000, guid: 0ee5fba1ab5f25c4b9d516fbb2cd31d9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sperry
+    second: {fileID: 2800000, guid: 14eb763ed2329534cbbb894ea051ff45, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: suction
+    second: {fileID: 2800000, guid: 5cc171569c73c794789e7f2a3888067b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: switch
+    second: {fileID: 2800000, guid: 5fb503a5a522c4240a4f0bd14c9dce04, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: temp
+    second: {fileID: 2800000, guid: 7d74e5dcf6635854ebdc3f565a7f4d38, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: textes
+    second: {fileID: 2800000, guid: e4e4fdfaa33f3854783aa67048f68b5b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: texture
+    second: {fileID: 2800000, guid: 56c311a6fa5ad5b42b49e594b578a403, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: turn
+    second: {fileID: 2800000, guid: 980f473133ba89047b78cae6445fc87f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: voltmeter
+    second: {fileID: 2800000, guid: 48d2d9fdc62382e4c9417f45ef1f9476, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: vor
+    second: {fileID: 2800000, guid: 74b39df47f9e6374a8c873f8859b3fea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: vsi
+    second: {fileID: 2800000, guid: e2a3a4790c98f3b4d80f9651ca881b91, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: warning
+    second: {fileID: 2800000, guid: 025557b51d8335746b320d195a861b16, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wipers
+    second: {fileID: 2800000, guid: 1c0595afd73782e4ea011c43a9d305d5, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
